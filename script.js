@@ -11,11 +11,11 @@ class Rectangle {
 		return this.height;
 	}
 	get Area(){
-		console.log(`${this.width} * ${this.height};
+		console.log(`${this.width} * ${this.height}`);
 	}
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	constructor(side){
 		super(side,side)
 	}
