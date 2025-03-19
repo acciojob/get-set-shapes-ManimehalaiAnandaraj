@@ -10,7 +10,7 @@ class Rectangle {
 	get height(){
 		return this._height;
 	}
-	get Area(){
+	getArea(){
 		console.log(`${this._width} * ${this._height}`);
 	}
 }
