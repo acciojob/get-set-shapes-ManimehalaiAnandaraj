@@ -20,7 +20,7 @@ class Square extends Rectangle {
 		super(side,side)
 	}
 	get Perimeter(){
-		console.log(` 4 * ${this.side});
+		console.log(` 4 * ${this.side}`);
 	}
 }
 
