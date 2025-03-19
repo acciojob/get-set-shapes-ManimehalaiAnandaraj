@@ -11,7 +11,7 @@ class Rectangle {
 		return this._height;
 	}
 	get Area(){
-		return this.width * $ this.height;
+		return this._width * $ this._height;
 	}
 }
 
